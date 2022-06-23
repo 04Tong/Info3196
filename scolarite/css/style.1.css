@@ -1,0 +1,44 @@
+.formulaire,.entete{
+    margin: 0 auto;/*on centre l'element*/
+    
+}
+
+.entete{
+    position: absolute;
+    display:inline-block;
+    top: 10%;
+    left: 46%;
+    margin-bottom: auto;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    inline-size: auto;
+  }
+  .ok{
+    position: absolute;
+    display:inline-block;
+    top: 0%;
+    margin-bottom: auto;
+    margin-left: 2%;
+  }
+  
+  
+  .entete p {
+    font-size: 46px;
+    display:inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    inline-size: auto;
+  }
+.formulaire form{
+    margin: 0 auto;
+}
+.lien{
+    margin-top:  30px;
+    
+}
+.lien a{
+    color: greenyellow;
+}
+.wrap-input100 validate-input{
+    border: none;
+}
+

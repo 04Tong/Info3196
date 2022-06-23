@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Authentification</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/buy1.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="entete">
+					<img src="images/buy.png" alt="IMG">					
+				</div>
+				
+				<div class="formulaire">
+                    <form method="POST" action="php/signup.php" class="login100-form validate-form">
+
+					
+                        <div class="wrap-input100 validate-input" data-validate = "Entrez un Nom  correcte SVP">
+                            <input class="input100" type="text" name="nom" placeholder="Ecrivez votre nom ">
+                            <span class="focus-input100"></span>
+                            						
+                        </div>
+                        <div class="wrap-input100 validate-input" data-validate = "Entrez un prenom  correcte SVP">
+                            <input class="input100" type="text" name="prenom" placeholder="Ecrivez votre prénom ">
+                            <span class="focus-input100">
+                                
+                            </span>
+                            						
+                        </div>
+                        <div class="wrap-input100 validate-input" data-validate = "Entrez un email de la forme: prenom.nom@facsciences-uy1.cm">
+                            <input class="input100" type="email" name="mail" placeholder="prenom.nom@facsciences-uy1.cm">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div class="wrap-input100 validate-input" data-validate = "selectionnez une option SVP">
+                            <label>Je suis:</label>
+                            <select name="grade" id="grade" class="input100" style="border-radius:20px;padding-left:20px" >                            
+                                
+                                <option value="ens">Enseignant</option>
+                                <option value="ci">De la Cellule Informatique</option>
+                                <option value="scl">De la Scolarite</option>
+                            </select>
+
+                            <span class="focus-input100"></span>						
+                        </div>
+                        <div class="wrap-input100" data-validate = "selectionnez une option SVP">
+                                <label id="label">Mon département:</label>
+                                <select name="departement" id="select_departement" class="input100"  style="border-radius:20px; padding-left:20px" >                            
+                                    
+                                    <option value="">-Sélectionner un département-</option>
+                                </select>
+    
+                                <span class="focus-input100"></span>						
+                            </div>
+                        <div class="wrap-input100 validate-input" data-validate = "username requis">
+                            <input class="input100" type="text" name="username" placeholder="votre username">
+                            <span class="focus-input100"></span>
+                            <span style="margin-top: 0px;" class="symbol-input100">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </span>
+                        </div>                      
+                        <div class="wrap-input100 validate-input" data-validate = "Password is required">
+                            <input class="input100" type="password" name="pwd" placeholder="Mot de passe svp">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fa fa-lock" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div class="container-login100-form-btn">
+                            <button type="submit" class="login100-form-btn">
+                                Valider
+                            </button>
+                        </div>					
+                    
+                    </form>
+                </div>
+				
+			</div>
+		</div>
+	</div>
+	
+	
+
+	
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+    <script src="../admin/js/jquery.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html>

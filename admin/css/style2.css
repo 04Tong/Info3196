@@ -1,0 +1,26 @@
+.detail_stat1 .div1{
+    width:100%;
+    background-color: white;
+    font-size:18px;
+    border-radius:10px;
+    box-shadow: 2px 5px 5px .5px rgba(0,0,0,.1);
+    padding:10px;
+    height:110px;
+    margin-top:-10px;
+}
+
+.detail_stat1 .div1 .form-group{
+    margin-left:30px;
+}
+.detail_stat1 .div2{
+    width:103%;
+    background-color: white;
+    font-size:18px;
+    border-radius:10px;
+    box-shadow: 2px .5px 2px .5px rgba(0,0,0,.1);
+    padding:10px;
+    height:400px;
+    margin-top:25px;
+    overflow-y:auto;
+}
+

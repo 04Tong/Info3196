@@ -1,0 +1,43 @@
+.row ol li{
+list-style: none;
+background-color: rgb(227, 234, 248);
+padding: 10px;
+border-radius: 10px;
+margin-top: 5px;
+width: 120px;    
+margin-left: 30px;
+}
+.row2 ol li i{
+    color:rgb(185, 12, 12);
+    font-size: 15px;
+    margin-top:-5px;
+    float: right;
+    cursor: pointer;
+}
+
+.row2{
+    overflow-y: auto;
+    height: 200px;
+    width:100%;
+    padding: 10px
+}
+.row select{
+    cursor: pointer;
+    height:30px;
+    background-color: rgb(236, 241, 255);
+    border-radius: 10px;
+    border:1px solid rgb(236, 241, 255);
+    box-shadow: 2px 5px 10px .5px rgba(0,0,0,.1)
+}
+.row2 ol{
+    width:160px;
+    min-height: 100px;
+}
+.row3 btn btn-primary {
+    cursor: pointer;
+    height:30px;
+    background-color: rgb(236, 241, 255);
+    border-radius: 10px;
+    border:1px solid rgb(236, 241, 255);
+    box-shadow: 2px 5px 10px .5px rgba(0,0,0,.1) 
+}

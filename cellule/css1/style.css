@@ -1,0 +1,101 @@
+
+    #bloc-form{
+        position: relative;
+        margin:0 auto;
+        margin-top:30px;
+    }
+
+#bloc_new{
+    margin-top:30px;
+}
+
+#bloc_new h1.main{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(154, 167, 206)
+}
+
+.bg{    height:580px;
+}
+
+.part1{
+    border-bottom: 2px dashed rgb(243, 243, 243);
+}
+
+.parcouru{
+    background-color: rgb(154, 167, 206);
+    color:white
+}
+
+#btn-submit{
+    margin-left:10px;
+}
+
+.path{
+    position: absolute;
+    color:rgb(154, 167, 206);
+    margin-top: 470px;
+    margin-left: 30px;
+    
+    width:650px;
+    height:100px;
+}
+
+.path .step{
+    height:100%;
+    width:30%;
+    text-align: center;
+    float: left;
+}
+
+
+.path .step2{
+    margin-left:200px;
+}
+
+
+.path .step .circle{
+    height:50%;
+    padding-top: 5%;
+    width:40%;
+    border-radius: 50%;
+    border:2px solid lightgray;
+    margin: 0 auto;
+    margin-top:20px;
+}
+
+.path .step1::after{
+    content:'';
+    position: absolute;
+    height:2px;
+    width:320px;
+    background-color: lightgray;
+    margin-left: 38px;
+    margin-top: -50px;
+}
+.hasImage:hover section {
+    background-color: rgba(5, 5, 5, 0.4);
+    }
+    .hasImage:hover button:hover {
+    background: rgba(5, 5, 5, 0.45);
+    }
+    
+    #overlay p,
+    i {
+    opacity: 0;
+    }
+    
+    #overlay.draggedover {
+    background-color: rgba(255, 255, 255, 0.7);
+    }
+    #overlay.draggedover p,
+    #overlay.draggedover i {
+    opacity: 1;
+    }
+    
+    .group:hover .group-hover\:text-blue-800 {
+    color: #2b6cb0;
+    }
+
+    .path{}
